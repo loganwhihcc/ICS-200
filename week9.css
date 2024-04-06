@@ -1,0 +1,153 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+  }
+  
+  body {
+    font-size: 50px;
+    
+    background-color: mintcream;
+  }
+  .child {
+    border-radius: 5px;
+  
+  
+  }
+  #calculator {
+    background-color: black;
+    border: .5rem solid darkslategrey;
+    margin:auto;
+    display: grid;
+    grid-template-areas: 
+    "result result result result"
+    "ac plus-minus percent division"
+    "seven eight nine multiply"
+    "four five six minus"
+    "one two three plus"
+    "zero zero decimal equal";
+    gap: 5px;
+    width: 600px;
+    margin-top: 200px;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+  
+  div {
+    padding:10px
+  }
+  
+  .gray-bg {
+    background-color: gray;
+  }
+  
+  .blue-bg {
+    background-color: aqua;
+  }
+  
+  .orange-bg {
+    background-color: orange;
+  }
+  
+  .teal-bg {
+    background-color: teal;
+  }
+  
+  #result {
+    grid-area: result;
+    text-align: right;
+   
+  }
+  #ac {
+    grid-area: ac;
+    text-align: center;
+  }
+  #plus-minus {
+    grid-area: plus-minus;
+    text-align: center;
+  
+  }
+  #percent {
+    grid-area: percent;
+    text-align: center;
+  
+  }
+  #division {
+    grid-area: division;
+    text-align: center;
+  
+  }
+  #seven {
+    grid-area: seven;
+    text-align: center;
+  
+  }
+  #eight {
+    grid-area: eight;
+    text-align: center;
+  
+  }
+  #nine {
+    grid-area: nine;
+    text-align: center;
+  
+  }
+  #multiply {
+    grid-area: multiply;
+    text-align: center;
+  
+  }
+  #four {
+    grid-area: four;
+    text-align: center;
+  
+  }
+  #five {
+    grid-area: five;
+    text-align: center;
+  
+  }
+  #six {
+    grid-area: six;
+    text-align: center;
+  
+  }
+  #minus {
+    grid-area: minus;
+    text-align: center;
+  
+  }
+  #one {
+    grid-area: one;
+    text-align: center;
+  
+  }
+  #two {
+    grid-area: two;
+    text-align: center;
+  
+  }
+  #three {
+    grid-area: three;
+    text-align: center;
+  
+  }
+  #plus {
+    grid-area: plus;
+    text-align: center;
+  
+  }
+  #zero {
+    grid-area: zero;
+    text-align: center;
+  
+  }
+  #decimal {
+    grid-area: decimal;
+    text-align: center;
+  
+  }
+  #equal {
+    grid-area: equal;
+    text-align: center;
+  
+  }
