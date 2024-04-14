@@ -1,0 +1,4 @@
+git add mtns.jpg
+git commit -m "Add image file"
+git remote add origin https://github.com/loganwhihcc/ICS-200.git
+git push -u origin master
